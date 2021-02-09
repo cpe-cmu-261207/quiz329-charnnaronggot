@@ -40,15 +40,16 @@ function App() {
           <input className="input" type="number" placeholder="e.q 30"></input>
         </div>
 
-        <button className="button is-primary is-fullwidth">Submit</button>
+        <button onClick = {this.ItemTable} className="button is-primary is-fullwidth">Submit</button>
 
         <div className="mb-4"></div>
 
         {/* display tables for all persons */}
         <p className="is-4 title has-text-centered">Person List</p>
+
         {/* sample table */}
         <ItemTable name={"Bob"} gender={"Male"} age={"50"} />
-        <p>Your name and code here</p>
+        <p>Charnnarong Charoensanongkun 620612146</p>
       </div>
     </div>
   );
